@@ -6,6 +6,7 @@ use std::path::Path;
 use std::ffi::OsString;
 use std::env;
 
+
 fn compare_array(a: &[u8], b: &[u8]) {
     let min = cmp::min(a.len(), b.len());
     for i in 0..min {
